@@ -1,6 +1,12 @@
 from kivy.lang import Builder
 from kivymd.app import MDApp
 from kivymd.uix.label import MDLabel
+from plyer.platforms.android import activity
+
+import plyer
+from plyer import flash
+print 'Plyer version is:', plyer.__version__
+flash.on()
 
 KV = """
 
