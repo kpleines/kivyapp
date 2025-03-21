@@ -255,8 +255,8 @@ p4a.branch = develop
 #p4a.hook =
 
 # (str) Bootstrap to use for android builds
-# p4a.bootstrap = sdl2
-p4a.bootstrap = webview
+p4a.bootstrap = sdl2
+#p4a.bootstrap = webview
 
 # (int) port number to specify an explicit --port= p4a argument (eg for bootstrap flask)
 #p4a.port =
